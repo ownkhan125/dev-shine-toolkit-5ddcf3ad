@@ -1,31 +1,43 @@
 export const personalInfo = {
-  name: "Abdul Rehman Khanzada",
+  name: "Aun Khan",
   role: "Frontend Developer",
   tagline: "React & Next.js Specialist",
-  email: "abdulrehman@example.com",
-  github: "https://github.com/abdulrehman",
-  linkedin: "https://linkedin.com/in/abdulrehman",
-  bio: `I'm a passionate frontend developer with 2.5 years of hands-on professional experience building scalable, performant web applications. I specialize in crafting clean, maintainable code and intuitive user interfaces using modern JavaScript frameworks.`,
+  email: "m.ownkhan58511@gmail.com",
+  github: "https://github.com/ownkhan125",
+  linkedin: "https://www.linkedin.com/in/own-khan-08ba84303?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  bio: `I'm a passionate frontend developer with 3 years of hands-on professional experience building scalable, performant web applications. I specialize in crafting clean, maintainable code and intuitive user interfaces using modern JavaScript frameworks.`,
   summary: `Currently focused on React and Next.js development, with a strong foundation in TypeScript and modern CSS frameworks. I'm expanding my skills into Shopify Hydrogen for headless commerce and React Native for mobile development.`,
 };
 
 export const skills = {
   frontend: ["HTML", "CSS", "TypeScript", "JavaScript"],
   frameworks: ["React", "Next.js", "Angular"],
-  uiLibraries: ["Tailwind CSS", "MUI", "Kendo UI", "Bootstrap"],
-  cms: ["Payload CMS"],
+  uiLibraries: ["Tailwind CSS", "Chakra UI", "Bootstrap"],
   tools: ["Git", "GitHub", "VS Code", "Figma"],
-  learning: ["Shopify Hydrogen", "React Native"],
+  learning: ["Shopify Development"],
 };
 
 export const experiences = [
+ {
+  title: "Frontend Developer",
+  company: "Nanolix Digital",
+  location: "Islamabad, Pakistan",
+  duration: "August 2025 — Present",
+  description: [
+    "Developed scalable and high-performance frontend applications using React, Next.js, and TypeScript",
+    "Built both headless and non-headless solutions, integrating REST APIs and CMS platforms based on project requirements",
+    "Collaborated closely with backend developers to implement seamless data flow and optimized user experiences",
+    "Implemented responsive layouts using Tailwind CSS, Material UI, and Bootstrap",
+    "Ensured SEO optimization, accessibility, and performance standards across web applications",
+  ],
+},
+
   {
     title: "Frontend Developer",
-    company: "DevStack Solutions",
-    location: "Remote",
-    duration: "Jan 2023 — Present",
+    company: "Techriv Solution",
+    location: "Hyderabad, Pakistan",
+    duration: "Feb 2024 — July 2025",
     description: [
-      "Built reusable UI component libraries using React and TypeScript, improving development efficiency by 40%",
       "Developed SEO-optimized Next.js applications with server-side rendering and dynamic routing",
       "Integrated RESTful APIs and headless CMS solutions for content management",
       "Implemented responsive designs using Tailwind CSS, MUI, and Bootstrap",
@@ -33,10 +45,10 @@ export const experiences = [
     ],
   },
   {
-    title: "Junior Frontend Developer",
-    company: "TechVentures Inc.",
-    location: "Karachi, Pakistan",
-    duration: "Jun 2021 — Dec 2022",
+    title: "Frontend Developer",
+    company: "Pixel House",
+    location: "Hyderabad, Pakistan",
+    duration: "Feb 2023 — Jan 2024",
     description: [
       "Developed interactive web applications using React and Angular frameworks",
       "Collaborated with UX designers to implement pixel-perfect responsive interfaces",
@@ -61,9 +73,9 @@ export const projects = [
     title: "Content Management Platform",
     description:
       "A headless CMS-driven website built with Payload CMS, featuring dynamic content blocks, media management, and custom field types for flexible content authoring.",
-    tech: ["Next.js", "Payload CMS", "MongoDB", "Tailwind CSS"],
+    tech: ["Next.js", "Headless", "Tailwind CSS"],
     github: "https://github.com/abdulrehman/payload-cms-site",
-    live: "https://payload-cms-demo.vercel.app",
+    live: "precis-lime.vercel.app",
     featured: true,
   },
   {
@@ -88,10 +100,9 @@ export const projects = [
 
 export const education = {
   degree: "Bachelor of Science in Computer Science",
-  institution: "FAST National University",
-  location: "Karachi, Pakistan",
-  duration: "2017 — 2021",
-  highlights: [
+  institution: "University of Sindh",
+  location: "Hyderabad, Pakistan",
+    highlights: [
     "Focus on Software Engineering and Web Technologies",
     "Dean's List recipient for academic excellence",
     "Final year project: Real-time collaboration platform",
